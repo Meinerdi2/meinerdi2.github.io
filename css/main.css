@@ -1,0 +1,221 @@
+/*GLOBAL AND RESSETS---------------------------------------------------------------------------------*/
+
+* {
+    outline: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+
+/*SLIDER--------------------------------------------------------------------------------------------*/
+
+.slider div {
+    height: calc(100vh - 50px);
+    background: #1b1d20;
+}
+
+.slider img {
+    margin: auto;
+    padding: 45vh 0 0;
+}
+
+
+/*Slider Navigation------------------------------*/
+
+.sliderPanel {
+    height: 49px;
+    background: #2f3238;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.slider .slick-next,
+.slider .slick-prev {
+    position: absolute;
+    width: 50px;
+    height: 49px;
+    text-indent: -9999px;
+    background: url('../img/spritesheet.png') -338px -32px #26292e;
+    border: none;
+    bottom: -49px;
+}
+
+.slider .slick-next {
+    left: 50px;
+    background: url('../img/spritesheet.png') -224px -146px #26292e;
+}
+
+.slider .slick-dots {
+    position: absolute;
+    display: flex;
+    right: calc(50vw - 28px);
+    bottom: -45px;
+    padding: 0;
+}
+
+.slider .slick-dots li {
+    background: #6e7074;
+    text-indent: -9999px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 0 10px 0 0;
+}
+
+.slider .slick-dots li:last-child {
+    margin: 0;
+}
+
+.slider .slick-dots .slick-active {
+    background: #fff;
+}
+
+.sliderPanel .arrowDown {
+    display: block;
+    height: 49px;
+    width: 50px;
+    background: url(../img/spritesheet.png) -225px -30px #26292e;
+}
+
+
+/*HEADER--------------------------------------------------------------------------------------------*/
+
+.head {
+    display: flex;
+    background: #26292e;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: sticky;
+    top:0;
+    z-index: 2;
+}
+
+.head .logo {
+    display: block;
+    height: 60px;
+    width: 114px;
+    text-indent: -9999px;
+    background: url('../img/spritesheet.png') -50px -30px;
+}
+
+.head .navigate {
+    overflow: hidden;
+    position: relative;
+}
+
+.navigate .menu {
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: calc(100vw - 134px);
+    position: relative;
+    left: calc(-1 * (100vh - 134px));
+    position: fixed;
+    top: 60px;
+    bottom: 0;
+    background: #26292e;
+    text-align: center;
+    transition: .5s ease;
+}
+
+.navigate .menu li {
+    padding: 2rem;
+}
+.navigate a {
+    color: #fefefe;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu.active {
+    left: 0;
+}
+/*burger------------------------*/
+
+.navigate .burger {
+    width: 32px;
+    height: 32px;
+    border-bottom: 3px solid #fff;
+    position: relative;
+    top: 14px;
+}
+
+.navigate .burger::before,
+.navigate .burger::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 32px;
+    height: 3px;
+    background: #fff;
+}
+
+.navigate .burger::after {
+    top: 15px;
+}
+
+/*MAIN----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.main section:nth-child(odd) {
+    background: #2f3238;
+}
+.main section:nth-child(even) {
+    background: #26292e;
+}
+/*WORK----------------------------------------------------------------------------------------------*/
+.work h1 {
+    font: 400 4.8rem 'Titillium Web';
+    color: #fefefe;
+}
+.work p,
+.work h2{
+    color: #fefefe;
+    font: 400 2.4rem 'Titillium Web';
+}
+.work ul {
+    display: flex;
+    justify-content: space-between;
+}
+.workPictures img {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+.workPictures a:last-child img {
+    margin: 0;
+}
+.work a {
+    text-decoration: none;
+    color: #7f8289;
+    font: 400 1.6rem 'Titillium Web';
+}
+/*Media tablet*/
+@media screen and (min-width: 600px) {
+    .navigate .menu {
+        display: none;
+    }
+}
+/*ABOUT---------------------------------------------------------------------------------------------*/
+
+
+/*FORM-PLACE----------------------------------------------------------------------------------------*/
+
+
+/*TWITTER-FEED--------------------------------------------------------------------------------------*/
+
+
+/*FOOTER--------------------------------------------------------------------------------------------*/
+
+
+/*By---------------------------------------------*/

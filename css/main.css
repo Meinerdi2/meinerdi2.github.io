@@ -96,6 +96,10 @@ body {
     justify-content: space-between;
     padding: 0 20px;
     position: sticky;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
     top:0;
     z-index: 2;
 }
@@ -123,7 +127,7 @@ body {
     position: relative;
     left: calc(-1 * (100vh - 134px));
     position: fixed;
-    top: 60px;
+    top: 0;
     bottom: 0;
     background: #26292e;
     text-align: center;
@@ -188,8 +192,6 @@ body {
     justify-content: space-between;
 }
 .workPictures img {
-    width: 100%;
-    max-width: 100%;
     margin-bottom: 30px;
 }
 .workPictures a:last-child img {

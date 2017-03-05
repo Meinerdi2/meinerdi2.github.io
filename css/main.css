@@ -1,4 +1,4 @@
-/*GLOBAL AND RESSETS---------------------------------------------------------------------------------*/
+/*GLOBAL AND RESSETS------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 * {
     outline: none;
@@ -17,7 +17,7 @@ body {
 }
 
 
-/*SLIDER--------------------------------------------------------------------------------------------*/
+/*SLIDER------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .slider div {
     height: calc(100vh - 50px);
@@ -30,7 +30,7 @@ body {
 }
 
 
-/*Slider Navigation------------------------------*/
+/*Slider Navigation-----------------------------------------------------------------------------------------------------------------------------*/
 
 .sliderPanel {
     height: 49px;
@@ -88,7 +88,7 @@ body {
 }
 
 
-/*HEADER--------------------------------------------------------------------------------------------*/
+/*HEADER------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .head {
     display: flex;
@@ -177,15 +177,23 @@ body {
 .main section:nth-child(even) {
     background: #26292e;
 }
-/*WORK----------------------------------------------------------------------------------------------*/
-.work h1 {
+.main h1 {
     font: 400 4.8rem 'Titillium Web';
     color: #fefefe;
+    text-align: center;
 }
-.work p,
-.work h2{
+.main p,
+.main h2{
     color: #fefefe;
     font: 400 2.4rem 'Titillium Web';
+}
+.main .underH {
+    text-align: center;
+}
+/*WORK----------------------------------------------------------------------------------------------*/
+
+.work p span {
+    color: #de5e60;
 }
 .work ul {
     display: flex;
@@ -202,21 +210,118 @@ body {
     color: #7f8289;
     font: 400 1.6rem 'Titillium Web';
 }
-/*Media tablet*/
+/*Media tablet - Это ВРЕМЕННО!!!!*/
 @media screen and (min-width: 600px) {
     .navigate .menu {
         display: none;
     }
 }
 /*ABOUT---------------------------------------------------------------------------------------------*/
-
-
+.main .about {
+    padding: 0 0 12rem;
+}
+.about .inf {
+    color: #7f8289;
+    font: 1.6rem 'Titillium Web';
+}
+.about ul {
+    display: flex;
+    text-indent: -9999px;
+    padding: 0;
+}
+.social a {
+    width: 16px;
+    height: 17px;
+    margin: 0 2rem 0 0;
+    display: block;
+}
+.social .twit {
+    background: url('../img/spritesheet.png') -486px -164px no-repeat;
+}
+.social .linked {
+    background: url('../img/spritesheet.png') -486px -50px no-repeat;
+}
+.social .drib {
+    background: url('../img/spritesheet.png') -50px -283px no-repeat;
+}
+.proposition span {
+    color: #de5e60;
+}
+.about .proposition {
+    border-left: 3px solid #de5e60;
+    margin: 0 0 3rem
+}
+.purchase a {
+    text-decoration: none;
+    display: inline-block;
+    background: #3c3f45;
+    color: #fff;
+    font: 1.6rem/4rem 'Titillium Web';
+    padding: 0 4.3rem;
+}
+.about img {
+    width: 100%;
+    max-width: 100%;
+}
 /*FORM-PLACE----------------------------------------------------------------------------------------*/
-
-
+.contacts li {
+    color: #7f8289;
+    padding: 0 0 3rem;
+}
+.contacts ul {
+    padding: 0;
+}
+.getIn input,
+.getIn textarea {
+    background: #26292e;
+    height: 60px;
+    border: none;
+    color: #fff;
+    margin: 0 0 1px;
+}
+.getIn textarea {
+    height: 400px;
+    margin: 0 0 3rem;
+    padding: 1.5rem;
+    resize: none;
+}
+.getIn input[type="submit"] {
+    padding: 0 5rem;
+    font: 800 1.8rem 'Titillium Web';
+}
 /*TWITTER-FEED--------------------------------------------------------------------------------------*/
-
-
+.twitterFeed .twit,
+.twitterFeed a {
+    color: #7f8289;
+    font: 2rem 'Titillium Web';
+    text-align: center;
+}
+.twitterFeed a {
+    color: #de5e60;
+    text-decoration: none;
+}
+.twitterFeed {
+    background: #26292e;
+    padding: 7rem 0 3.5rem
+}
+.twitterFeed span {
+    color: #fff;
+}
+.twitterFeed i {
+    font: italic 1.6rem 'Titillium Web';
+}
+.twitterFeed .redTwit {
+    text-decoration: none;
+    display: block;
+    width: 16px;
+    height: 16px;
+    text-indent: -9999px;
+    background: url('../img/spritesheet.png') -50px -412px;
+    margin: auto;
+}
+.twitterFeed .twit {
+    padding: 0 0 6rem;
+}
 /*FOOTER--------------------------------------------------------------------------------------------*/
 
 

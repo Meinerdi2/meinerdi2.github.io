@@ -1,0 +1,83 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-BrushedMini {
+    width: 94px;
+    height: 18px;
+    background-position: -50px -50px;
+}
+
+.sprite-arrow-down {
+    width: 14px;
+    height: 10px;
+    background-position: -244px -50px;
+}
+
+.sprite-arrow-left {
+    width: 10px;
+    height: 14px;
+    background-position: -358px -50px;
+}
+
+.sprite-arrow-right {
+    width: 10px;
+    height: 14px;
+    background-position: -244px -164px;
+}
+
+.sprite-behanceFooter {
+    width: 32px;
+    height: 20px;
+    background-position: -354px -164px;
+}
+
+.sprite-dribbble-about {
+    width: 16px;
+    height: 16px;
+    background-position: -50px -284px;
+}
+
+.sprite-dribbbleFooter {
+    width: 32px;
+    height: 32px;
+    background-position: -166px -284px;
+}
+
+.sprite-facebookFooter {
+    width: 15px;
+    height: 32px;
+    background-position: -298px -284px;
+}
+
+.sprite-linked-in-about {
+    width: 16px;
+    height: 16px;
+    background-position: -486px -50px;
+}
+
+.sprite-twitter-about {
+    width: 16px;
+    height: 14px;
+    background-position: -486px -166px;
+}
+
+.sprite-twitterFooter {
+    width: 32px;
+    height: 28px;
+    background-position: -413px -284px;
+}
+
+.sprite-twitterRed {
+    width: 16px;
+    height: 14px;
+    background-position: -50px -412px;
+}
+
+.sprite-vimeoFooter {
+    width: 32px;
+    height: 28px;
+    background-position: -413px -412px;
+}

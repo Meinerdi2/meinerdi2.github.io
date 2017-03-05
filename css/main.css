@@ -100,7 +100,7 @@ body {
     position: -moz-sticky;
     position: -ms-sticky;
     position: -o-sticky;
-    top:0;
+    top: 0;
     z-index: 2;
 }
 
@@ -137,6 +137,7 @@ body {
 .navigate .menu li {
     padding: 2rem;
 }
+
 .navigate a {
     color: #fefefe;
     text-transform: uppercase;
@@ -146,7 +147,9 @@ body {
 .menu.active {
     left: 0;
 }
-/*burger------------------------*/
+
+
+/*Burger----------------------------------------------------------------------------------------------------------------------------------------*/
 
 .navigate .burger {
     width: 32px;
@@ -170,87 +173,114 @@ body {
     top: 15px;
 }
 
-/*MAIN----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*MAIN--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 .main section:nth-child(odd) {
     background: #2f3238;
 }
+
 .main section:nth-child(even) {
     background: #26292e;
 }
+
 .main h1 {
     font: 400 4.8rem 'Titillium Web';
     color: #fefefe;
     text-align: center;
 }
+
 .main p,
-.main h2{
+.main h2 {
     color: #fefefe;
     font: 400 2.4rem 'Titillium Web';
 }
+
 .main .underH {
     text-align: center;
 }
-/*WORK----------------------------------------------------------------------------------------------*/
+
+
+/*WORK--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .work p span {
     color: #de5e60;
 }
+
 .work ul {
     display: flex;
     justify-content: space-between;
 }
+
 .workPictures img {
     margin-bottom: 30px;
 }
+
 .workPictures a:last-child img {
     margin: 0;
 }
+
 .work a {
     text-decoration: none;
     color: #7f8289;
     font: 400 1.6rem 'Titillium Web';
 }
+
+
 /*Media tablet - Это ВРЕМЕННО!!!!*/
+
 @media screen and (min-width: 600px) {
     .navigate .menu {
         display: none;
     }
 }
-/*ABOUT---------------------------------------------------------------------------------------------*/
+
+
+/*ABOUT-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 .main .about {
     padding: 0 0 12rem;
 }
+
 .about .inf {
     color: #7f8289;
     font: 1.6rem 'Titillium Web';
 }
+
 .about ul {
     display: flex;
     text-indent: -9999px;
     padding: 0;
 }
+
 .social a {
     width: 16px;
     height: 17px;
     margin: 0 2rem 0 0;
     display: block;
 }
+
 .social .twit {
     background: url('../img/spritesheet.png') -486px -164px no-repeat;
 }
+
 .social .linked {
     background: url('../img/spritesheet.png') -486px -50px no-repeat;
 }
+
 .social .drib {
     background: url('../img/spritesheet.png') -50px -283px no-repeat;
 }
+
 .proposition span {
     color: #de5e60;
 }
+
 .about .proposition {
     border-left: 3px solid #de5e60;
     margin: 0 0 3rem
 }
+
 .purchase a {
     text-decoration: none;
     display: inline-block;
@@ -259,18 +289,24 @@ body {
     font: 1.6rem/4rem 'Titillium Web';
     padding: 0 4.3rem;
 }
+
 .about img {
     width: 100%;
     max-width: 100%;
 }
-/*FORM-PLACE----------------------------------------------------------------------------------------*/
+
+
+/*FORM-PLACE--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 .contacts li {
     color: #7f8289;
     padding: 0 0 3rem;
 }
+
 .contacts ul {
     padding: 0;
 }
+
 .getIn input,
 .getIn textarea {
     background: #26292e;
@@ -279,37 +315,47 @@ body {
     color: #fff;
     margin: 0 0 1px;
 }
+
 .getIn textarea {
     height: 400px;
     margin: 0 0 3rem;
     padding: 1.5rem;
     resize: none;
 }
+
 .getIn input[type="submit"] {
     padding: 0 5rem;
     font: 800 1.8rem 'Titillium Web';
 }
-/*TWITTER-FEED--------------------------------------------------------------------------------------*/
+
+
+/*TWITTER-FEED------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 .twitterFeed .twit,
 .twitterFeed a {
     color: #7f8289;
     font: 2rem 'Titillium Web';
     text-align: center;
 }
+
 .twitterFeed a {
     color: #de5e60;
     text-decoration: none;
 }
+
 .twitterFeed {
     background: #26292e;
     padding: 7rem 0 3.5rem
 }
+
 .twitterFeed span {
     color: #fff;
 }
+
 .twitterFeed i {
     font: italic 1.6rem 'Titillium Web';
 }
+
 .twitterFeed .redTwit {
     text-decoration: none;
     display: block;
@@ -319,51 +365,66 @@ body {
     background: url('../img/spritesheet.png') -50px -412px;
     margin: auto;
 }
+
 .twitterFeed .twit {
     padding: 0 0 6rem;
 }
-/*FOOTER--------------------------------------------------------------------------------------------*/
+
+
+/*FOOTER------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 .socialLinks {
     background: #2f3238;
     padding: 8rem 0 10rem;
 }
+
 .socialLinks ul {
     display: flex;
     padding: 0;
     justify-content: space-between;
 }
+
 .socialLinks a {
     width: 70px;
     height: 70px;
     display: block;
     text-indent: -9999px;
     background: url('../img/spritesheet.png') -393px -261px #26292e;
-
 }
+
 .socialLinks .item2 {
     background: url('../img/spritesheet.png') -270px -263px #26292e;
 }
+
 .socialLinks .item3 {
     background: url('../img/spritesheet.png') -393px -389px #26292e;
 }
+
 .socialLinks .item4 {
     background: url('../img/spritesheet.png') -336px -140px #26292e;
 }
+
 .socialLinks .item4 {
     background: url('../img/spritesheet.png') -336px -140px #26292e;
 }
+
 .socialLinks .item5 {
     background: url('../img/spritesheet.png') -148px -266px #26292e;
 }
-/*By---------------------------------------------*/
+
+
+/*BY----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 .by {
     background: #26292e;
 }
+
 .by p {
     font: 600 1.2rem 'Titillium Web';
     color: #fefefe;
     text-align: center;
 }
+
 .by span {
     color: #de5e60;
 }

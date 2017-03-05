@@ -323,6 +323,47 @@ body {
     padding: 0 0 6rem;
 }
 /*FOOTER--------------------------------------------------------------------------------------------*/
+.socialLinks {
+    background: #2f3238;
+    padding: 8rem 0 10rem;
+}
+.socialLinks ul {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+}
+.socialLinks a {
+    width: 70px;
+    height: 70px;
+    display: block;
+    text-indent: -9999px;
+    background: url('../img/spritesheet.png') -393px -261px #26292e;
 
-
+}
+.socialLinks .item2 {
+    background: url('../img/spritesheet.png') -270px -263px #26292e;
+}
+.socialLinks .item3 {
+    background: url('../img/spritesheet.png') -393px -389px #26292e;
+}
+.socialLinks .item4 {
+    background: url('../img/spritesheet.png') -336px -140px #26292e;
+}
+.socialLinks .item4 {
+    background: url('../img/spritesheet.png') -336px -140px #26292e;
+}
+.socialLinks .item5 {
+    background: url('../img/spritesheet.png') -148px -266px #26292e;
+}
 /*By---------------------------------------------*/
+.by {
+    background: #26292e;
+}
+.by p {
+    font: 600 1.2rem 'Titillium Web';
+    color: #fefefe;
+    text-align: center;
+}
+.by span {
+    color: #de5e60;
+}
